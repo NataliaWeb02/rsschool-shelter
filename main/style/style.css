@@ -37,7 +37,19 @@ p{
     padding-top: 30px;
 }
 
-
+/*section our-friends*/
+.our-friends-cards{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.our-friends-button-spar{
+    color: #292929;
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    border: #f1cdb3 solid;
+}
 
 
 /*footer-style*/
