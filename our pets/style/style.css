@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration-line: none;
+}
+body{
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #f6f6f6;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffffff;
+}
+.burger-menu{
+    display: none;
+}
+.logo{
+    margin: 10px;
+}
+.title{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 32;
+    color: #545454;
+}
+.subtitle{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: #292929;
+}
+.menu{
+    display: flex;
+    gap:20px;
+    justify-content: flex-end;
+}
+.menu-items{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 15px;
+color: #545454;
+}
+.menu-items1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #545454; 
+}
+.menu-items1:hover{
+    text-decoration-line: #f1cdb3;
+}
+h2{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 35px;
+    color: #545454;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.our-friends-cards{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+}
+.our-friends-buttons{
+    display: flex;
+    justify-content: center;
+}
+footer{
+    padding-left: 10px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    background-image: url(/img/footer-gradient-background.png);
+}
