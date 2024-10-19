@@ -1,0 +1,60 @@
+/*full-document-style*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration-line: none;
+}
+body{
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #f6f6f6;
+}
+
+
+
+/*footer-style*/
+.section{
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    font-size: 35px;
+    color: #ffffff;
+    }
+    .contacts-menu{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 20px;
+        color: #f1cdb3;
+        padding-left: 40px;
+    }
+    .adress-menu{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 20px;
+        color: #f1cdb3;
+        padding-left: 20px;
+    }
+    footer{
+        height: 350px;
+        padding-left: 20px;
+        padding-right: 60px;
+        padding-bottom: 10px;
+        padding-top: 40px;
+        display: flex;
+        justify-content: space-between;
+        background-image: url(/img/footer-gradient-background.png);
+    }
+    .contacts-email{
+        padding-top: 40px;
+        list-style-image: url(/img/mail.svg);
+    }
+    .contacts-phone{
+        padding-top: 40px;
+        list-style-image: url(/img/phone.svg);
+    }
+    .adress-item{
+        padding-top: 25px;
+        list-style-image: url(/img/pin.svg);
+    }
+    .contacts-a{
+        color: #f1cdb3;
+    }
