@@ -70,12 +70,45 @@ h2{
     display: flex;
     justify-content: center;
 }
+.section{
+font-family:Georgia, 'Times New Roman', Times, serif ;
+font-size: 35px;
+color: #ffffff;
+}
+.contacts-menu{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: #f1cdb3;
+    padding-left: 40px;
+}
+.adress-menu{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: #f1cdb3;
+    padding-left: 20px;
+}
 footer{
     height: 350px;
-    padding-left: 10px;
-    padding-right: 30px;
+    padding-left: 20px;
+    padding-right: 60px;
     padding-bottom: 10px;
+    padding-top: 40px;
     display: flex;
     justify-content: space-between;
     background-image: url(/img/footer-gradient-background.png);
+}
+.contacts-email{
+    padding-top: 40px;
+    list-style-image: url(/img/9_mail.svg);
+}
+.contacts-phone{
+    padding-top: 40px;
+    list-style-image: url(/img/10_phone.svg);
+}
+.adress-item{
+    padding-top: 25px;
+    list-style-image: url(/img/11_pin.svg);
+}
+.contacts-a{
+    color: #f1cdb3;
 }
