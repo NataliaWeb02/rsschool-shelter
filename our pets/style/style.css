@@ -12,6 +12,7 @@ body{
     background-color: #f6f6f6;
 }
 header{
+    height: 120px;
     display: flex;
     justify-content: space-between;
     background-color: #ffffff;
@@ -33,6 +34,8 @@ header{
     color: #292929;
 }
 .menu{
+    margin-top: 30px;
+    margin-right: 10px;
     display: flex;
     gap:20px;
     justify-content: flex-end;
@@ -68,6 +71,7 @@ h2{
     justify-content: center;
 }
 footer{
+    height: 350px;
     padding-left: 10px;
     padding-right: 30px;
     padding-bottom: 10px;
