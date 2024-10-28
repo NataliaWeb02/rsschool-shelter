@@ -1,0 +1,32 @@
+@media screen and ((min-width:768px) and (max-width:1279px)) {
+
+}
+@media screen and ((min-width:360px) and (max-width:767px)) {
+    *{
+        display: block;
+        max-width: 767px;
+    }
+    ul.menu{
+        display: none;
+    }
+    .burger-menu{
+        display: flex;
+        flex-direction: column;
+        background-color: black;
+
+    }
+    div.not-only{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .about-the-shelter{
+        display: flex;
+        flex-direction:column-reverse;
+    }
+    #our-friends{
+        display: flex ;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
