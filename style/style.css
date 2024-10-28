@@ -1,0 +1,267 @@
+/*header*/
+header{
+    max-width: 1280px;
+    display: flex;
+    flex-direction: column;
+    background-image: url(../img/1_start-screen-gradient-background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+div.flex-wrapper-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+div.logo{
+    margin-top: 10px;
+}
+span.subtitle{
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 13px;
+   color: #ffffff;
+}
+ul.menu{
+    margin-top: 30px;
+    margin-right: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #fafafa;
+}
+li.menu-items1{
+    pointer-events: none;
+    text-decoration: underline;
+    color: #f1cdb3;
+    text-decoration-color: #f1cdb3;
+    text-underline-offset: 7px;
+}
+.burger-menu{
+    display: none;
+}
+div.not-only{
+    margin-top: 100px;
+    margin-left: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+div.not-only img{
+    max-width: 100%;
+}
+.not-only-info{
+    margin-top: 160px;
+}
+.not-only p{
+    margin-top: 22px;
+    color: #cdcdcd;
+    line-height: 1.5;
+    text-align:justify;
+}
+.button-wrapper{
+    margin-top: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 207px;
+    height: 52px;
+    background-color: #f1cdb3;
+    border-radius: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 17px;
+    color: #292929;
+}
+header img{
+    height: 728px;
+}
+/*main*/
+main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f6f6f6;
+}
+/*not only people need a house*/
+div.about-the-shelter{
+    width:1280px;
+    padding-left: 200px;
+    display: flex;
+    flex-direction: row;
+    gap: 110px;
+    padding-bottom: 50px;
+    background-color: #ffffff;
+}
+div.about-the-shelter img{
+    margin-top: 70px;
+}
+.about-the-shelter-text{
+    margin-top: 35px;
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+}
+/*section our-friends*/
+#our-friends{
+    padding-top: 80px;
+    padding-bottom: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    background-color: #f6f6f6;
+}
+.flex-wrapper-our-friends{
+    padding-top: 15px;
+    display: flex;
+    gap: 70px;
+    justify-content: center;
+    align-items: center;
+}
+.our-fiends-cards-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #fafafa;
+    padding-bottom: 40px;
+}
+figcaption{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: #545454;
+    text-align: center;
+    margin-top: 20px;
+}
+.card-item-button{
+    display: block;
+    margin: 0 auto;
+    width: 187px;
+    height: 52px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 17px;
+    color: #292929;
+    background-color: #fafafa;
+    text-align: center;
+    margin-top: 20px;
+    border: #f1cdb3 solid;
+    border-radius: 50px;
+}
+.our-friends-button-spar{
+    color: #292929;
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    border: #f1cdb3 solid;
+}
+.button-wrapper-friens{
+    margin-top: 10px;
+    background-color: #f1cdb3;
+    display: flex;
+    justify-content: center;
+   align-items: center;
+   width: 261px;
+   height: 52px;
+   border-radius: 50px;
+}
+.button-wrapper-friens a{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 17px;
+    color: #292929;
+   
+}
+/*section Help*/
+#help{
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-right: 40px;  
+    padding-bottom: 90px;
+    width:1280px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.flex-wrapper{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 100px;
+}
+.flex-item{
+   justify-items: center;
+}
+/*Section Donate*/
+.in-addition{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
+.bank-info{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.bank-card-button{
+    padding-left: 10px;
+    display: flex;
+    gap: 10px;
+    background-color: #f1cdb3;
+    max-width: 349px;
+    min-height: 43px;
+    align-items: center;
+    border-radius: 10px;
+}
+/*footer-style*/  
+ footer{
+        height: 350px;
+        padding-left: 40px;
+        padding-right: 60px;
+        padding-top: 40px;
+        display: flex;
+        justify-content: space-between;
+        background-image: url(../img/18_footer-gradient-background.png)
+    
+    }
+.section{
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    font-size: 35px;
+    color: #ffffff;
+    }
+    .contacts-menu{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 20px;
+        color: #f1cdb3;
+        padding-left: 40px;
+    }
+    .adress-menu{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 20px;
+        color: #f1cdb3;
+        padding-left: 20px;
+    }
+ 
+    .contacts-email{
+        padding-top: 40px;
+        list-style-image: url(../img/19_mail.svg);
+    }
+    .contacts-phone{
+        padding-top: 40px;
+        list-style-image: url(../img/20_phone.svg);
+    }
+    .adress-item{
+        padding-top: 25px;
+        list-style-image: url(../img/21_pin.svg)
+    }
+    .contacts-a{
+        color: #f1cdb3;
+    }
+    
