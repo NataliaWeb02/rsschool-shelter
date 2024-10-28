@@ -15,6 +15,13 @@ body{
 html{
     scroll-behavior: smooth;
 }
+.burger-menu{
+    display: none;
+    flex-direction: column;
+    gap: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+}
 /*text style*/
 p{
     font-family: Arial, Helvetica, sans-serif;
@@ -58,6 +65,9 @@ h5{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 15px ;
     color: #545454;
+}
+a{
+    color:#f1cdb3;
 }
 /*Hover*/
 button:hover{

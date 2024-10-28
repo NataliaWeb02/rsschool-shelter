@@ -49,11 +49,6 @@ color: #545454;
     text-decoration: underline;
     text-decoration-color: #f1cdb3;
 }
-
-/*burger-menu for media*/
-.burger-menu{
-    display: none;
-}
 /*main-cards*/
 .card-item{
     width: 270px;

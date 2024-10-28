@@ -1,32 +1,57 @@
 @media screen and ((min-width:768px) and (max-width:1279px)) {
 
 }
-@media screen and ((min-width:360px) and (max-width:767px)) {
+@media screen and ((min-width:320px) and (max-width:767px)) {
     *{
         display: block;
+    }
+    body{
         max-width: 767px;
     }
     ul.menu{
         display: none;
     }
-    .burger-menu{
-        display: flex;
-        flex-direction: column;
-        background-color: black;
-
+    .burger-menu {
+        display: flex; 
     }
     div.not-only{
         display: flex;
         flex-direction: column;
         justify-content: center;
+        align-items: center;
+        gap: 40px;
     }
-    .about-the-shelter{
+    div.about-the-shelter{
         display: flex;
-        flex-direction:column-reverse;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
     }
-    #our-friends{
-        display: flex ;
+    button:hover{
+        cursor: default;
+    }
+    div.our-fiends-cards-item:hover{
+        display: flex;
         flex-direction: column;
         justify-content: center;
+        background-color: #fafafa;
+        padding-bottom: 40px;
     }
+    .button-wrapper-friens:hover{
+        cursor:default;
+    }
+    div.button-wrapper:hover{
+        cursor: default;
+    }
+    footer{
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+      justify-content: center;
+      gap:20px;
+      align-items: center;
+    }
+
+    }
+@media screen and (max-width:319px) {
+    
 }
